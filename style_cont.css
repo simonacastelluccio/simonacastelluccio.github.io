@@ -1,0 +1,120 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  .wrapper{
+  display: flex;
+  flex-flow: wrap;
+  flex: 1 100%;
+  text-align: justify;
+  }
+.bar {
+  z-index: 1;
+  background-color:#9acbc3;
+  color: #ffffff;
+  padding: 0;
+  height: 130px;
+  margin: -10px;
+  display:flex;
+  justify-content: space-between;
+   }
+[class*="logo"]{
+   margin: 0;
+   margin-top:-35px;
+   margin-left: 150px;
+   padding: 4px;
+   }
+   .row::after {
+     content: "";
+     clear: both;
+     display: inline-block;
+   }
+.bottone{
+  text-decoration:none;
+  font-family: "Quicksand", sans-serif;
+  font-size:20;
+  color: #FFFFFF
+  }
+a.bottone:hover{
+    text-decoration:none;
+    font-family: "Quicksand", sans-serif;
+    color:#007BA7
+    }
+.menu li {
+  color: #FFFFFF;
+  margin: -140px;
+  margin-top:6px;
+  margin-right: 150px;
+    display: flex;
+    display:inline-block;
+    justify-content: flex-start;
+}
+.menu ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 45px;
+}
+html {
+  font-family: "Futura Lt BT light", sans-serif;
+}
+#flex-container1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  }
+  #boxtext{
+  text-align: center;
+    }
+  h1{
+  font-family: "Futura Lt BT light", sans-serif;
+  color: #9acbc3;
+  font-size: 80px;
+  font-weight: lighter;
+    }
+  .grassetto{
+  font-size: 25px;
+   color:black;
+    }
+    .text{
+      font-size: 19px;
+      color: black;
+      }
+      #illust{
+        margin: 50px;
+        margin-right: 150px;
+        }
+.footer {
+  z-index: 9;
+  background-color:#9acbc3;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 28px;
+  height: 50px;
+  margin:-10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+@media screen and(max-width:320px){
+  #boxtext{
+    }
+  h1{
+  font-size: 30px;
+    }
+  .grassetto{
+  font-size: 19px;
+    }
+    .text{
+      font-size: 10px;
+      }
+  }
+</style>

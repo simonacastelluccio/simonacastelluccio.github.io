@@ -1,0 +1,120 @@
+<html>
+<body>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   }
+.wrapper{
+display: flex;
+flex-flow:  wrap;
+align-items: center;
+flex: 1 100%;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: inline-block;
+}
+.bar {
+  background-color:#9acbc3;
+  color: #ffffff;
+  padding: 0;
+  margin:-10px;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+[class*="logo"]{
+width: 150;
+margin: 0;
+margin-left: 150px;
+margin-top: -30px;
+display: flex;
+align-self:flex-start;
+}
+.bottone{
+  text-decoration:none;
+  font-family: "Quicksand", sans-serif;
+  font-size:20;
+  color: #FFFFFF
+  }
+  a.bottone:hover{
+    text-decoration:none;
+    font-family: "Quicksand", sans-serif;
+    color:#007BA7
+    }
+.menu li {
+  color: #FFFFFF;
+  margin: -140px;
+  margin-top: 39px;
+  margin-right: 150px;
+  display:flex;
+  display:inline-block;
+  float: righ;
+}
+.menu ul {
+  position:relative;
+  list-style-type: none;
+  margin: 0px;
+  top:0px;
+  padding: 10px;
+}
+html {
+  font-family: "Quicksand", sans-serif;
+}
+#boxtext{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+  h1{
+  font-family: "Futura Lt BT light", sans-serif;
+  color: #9acbc3;
+  font-size: 80px;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+        }
+#container1{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  position:relative;
+  column-count: 3;
+  padding:30px;
+  }
+  .image{
+    display:inline-block;
+    margin-bottom: 10px;
+    overflow:hidden;
+    }
+    img{
+      width:100%;
+      transition:0.25s easy-in-out;
+        }
+  .image:hover img{
+      transform:scale(1.1);
+        }
+  .footer{
+    background-color:#9acbc3;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    margin: -10px;
+    margin-top: 38px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+        }
+    @media screen and(max-width:320px){
+      .h1{
+          font-size: 30px;
+            }
+        }
+
+</style>
